@@ -94,7 +94,7 @@ server <- function(input, output, session) {
       maturity_period,
       "</b>",
       "<br/>",
-      "<b style='font-size:18px; color:#2E86C1;'>Then you receive your inital investment amount</b>",
+      "<b style='font-size:18px; color:#2E86C1;'>Then you receive your initial investment amount</b>",
       "</div>"
     ))
   }
