@@ -4,7 +4,7 @@ treasury_bill_approx_interest_rates <- c(0.11, 0.12, 0.13, 0.14)
 treasury_bill_config <- data.frame(
   tenure = treasury_bill_tenures_days,
   interest_rate = treasury_bill_approx_interest_rates,
-  tax_rate = rep(0.15),
+  tax_rate = rep(0.20),
   handling_fee = rep(0.01)
 ) %>%
   mutate(
